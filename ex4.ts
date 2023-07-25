@@ -5,10 +5,10 @@ import promptSync from 'prompt-sync';
 export function tabuada() {
     const prompt = promptSync();
 
-    let tabuada = parseInt(prompt("Digite o numero da tabuada desejada: "));
+    let tabuada:number = parseInt(prompt("Digite o numero da tabuada desejada: "));
 
     if (!isNaN(tabuada)) {
-        for (let num = 0; num <= 10; num++) {
+        for (let num:number = 0; num <= 10; num++) {
             console.log(`${tabuada} x ${num} =  ${(tabuada * num)}`);
         }
     } else {

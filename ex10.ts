@@ -5,7 +5,7 @@ import PromptSync from "prompt-sync";
 export function usernum() {
   const prompt = PromptSync();
 
-  let numero;
+  let numero: number = 0;
 
   while (numero !== 0) {
     numero = parseInt(prompt("Digite um número ou 0 para sair: "));

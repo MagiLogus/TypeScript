@@ -12,8 +12,8 @@ import { usernum } from "./ex10";
 
 const prompt = PromptSync();
 
-let exe;
-let continuar;
+let exe: number;
+let continuar: string;
 
 do {
     exe = parseInt(prompt("Digite um número que represente um exercício de 1 a 10: "));
