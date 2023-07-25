@@ -5,7 +5,7 @@ import PromptSync from "prompt-sync";
 export function contagem() {
   const prompt = PromptSync();
 
-  let num:number = parseInt(prompt("Digite um número: "));
+  let num: number = parseInt(prompt("Digite um número: "));
 
   while (num >= 0) {
     console.log(num);

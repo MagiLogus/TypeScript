@@ -7,7 +7,7 @@ import PromptSync from "prompt-sync";
 export function maioridade() {
     const prompt = PromptSync();
 
-    let idade:number = parseInt(prompt("Digite a sua idade: "));
+    let idade: number = parseInt(prompt("Digite a sua idade: "));
 
     while (idade < 18) {
         console.log("Digite uma idade válida! ");
